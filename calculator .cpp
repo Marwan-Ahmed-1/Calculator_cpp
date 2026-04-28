@@ -47,17 +47,17 @@ int main() {
 				break;
 			}
 
-			// يسألك تكمل ولا لا
+	
 			cout << "\nDo you want another calculation? (y/n): ";
 			cin >> again;
 
 		}
 		else if (choice == 5) {
-			cout << "Exiting... 👋\n";
+			cout << "Exiting...\n";
 			break;
 		}
 		else {
-			cout << "Invalid choice! حاول تاني\n";
+			cout << "Invalid choice! \n";
 			continue;
 		}
 
